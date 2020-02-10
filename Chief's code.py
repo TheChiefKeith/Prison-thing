@@ -32,10 +32,12 @@ def move(my_history, their_history, my_score, their_score):
         return 'b'
     elif their_history[-1]== 'c':
         return 'c'
-    pattern = their_history[10]
-    return (their_history - str('c'))
-        
-    
+    pattern = their_history[-10]
+    return (their_history[-10] - str('c'))
+    if 'c'>5:
+        return 'b'
+    elif:
+        return 'b'
     
 
     
